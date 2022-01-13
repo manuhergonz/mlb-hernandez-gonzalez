@@ -1,0 +1,431 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap');
+
+*{
+  text-decoration: none;
+  font-family: 'Comforter', cursive;
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Original Surfer', cursive;
+  font-family: 'Patrick Hand', cursive;
+}
+
+
+body{
+  background-image: url(../Secciones/img/fondo-madera2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+ li.tablaMenu a{
+    border: solid 3px;
+    border-radius: 5vh;
+    padding: 5px;
+    margin: 30px;
+    color: rgb(109, 40, 13);
+    
+    
+  }
+
+  li.tablaMenu a:hover{
+    background-color: rgb(102, 80, 55);
+    border-radius: 5vh;
+  }
+
+
+
+
+               /* Menu */
+  header{
+  border-top: solid 5px rgb(109, 40, 13);
+  border-right: solid 5px rgb(109, 40, 13);
+  border-bottom: solid 5px rgb(109, 40, 13);
+  border-left: solid 5px rgb(109, 40, 13);
+  padding: 35px;
+  background-color: burlywood;
+  
+  
+    
+  
+
+}
+
+.tablaMenu{
+
+  display: inline;
+  padding: 30px;
+  font-size: x-large;
+  font-family: 'Comforter', cursive;
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Original Surfer', cursive;
+  font-family: 'Patrick Hand', cursive;
+  
+  
+
+}
+
+            /* Titulos H1 */
+.titulo{
+  
+  text-align: center;
+  font-family: 'Comforter', cursive;
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Original Surfer', cursive;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 50px;
+  color: rgb(179, 123, 51)
+  
+
+}
+
+      /* imagenes de index */
+      
+ section div img{
+   width: 320px;
+   height: 270px;
+   border-radius: 5vh;
+  }
+
+  .imgEquipo{
+    width: 700px;
+    height: 600px;
+    border-radius: 5vh;
+  }
+
+  .imgnoticias{
+    width: 300px;
+    height: 300px;
+    border-radius: 5vh;
+    margin: 70px;
+  }
+
+
+         /* Logo De Pagina */
+.logo{ 
+   height: 100px;
+   width: 100px;
+   border-radius: 50pt;
+   padding: 10px;
+  
+  }
+
+      
+  article p{
+    border-radius: 3vh;
+    border-top: solid 1px rgb(109, 40, 13);
+    border-right: solid 1px rgb(109, 40, 13);
+    border-bottom: solid 1px rgb(109, 40, 13);
+    border-left: solid 1px rgb(109, 40, 13);
+    padding: 15px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+
+
+     iframe{
+
+      position: relative; right: -400px;
+      width: 500px;
+      height: 400px;
+
+    }
+      /* tabla de boletos  */
+
+     tr td{
+      width: 90px;
+      height: 50px;
+      border-top: solid 5px rgb(109, 40, 13);
+      border-right: solid 5px rgb(109, 40, 13);
+      border-bottom: solid 5px rgb(109, 40, 13);
+      border-left: solid 5px rgb(109, 40, 13);
+      border-radius: 8pt;
+      text-align: center;
+      
+      
+    }
+
+      /* Formulario */
+
+      .formulario{
+        margin-left: 50px;
+        border-radius: 5vh;
+        padding: 20px;
+        margin-right: 1000px;
+        border-top: solid 3px rgb(109, 40, 13);
+        border-right: solid 3px rgb(109, 40, 13);
+        border-bottom: solid 3px rgb(109, 40, 13);
+        border-left: solid 3px rgb(109, 40, 13);
+       
+       
+      }
+
+
+            /* Pie De Pagina */
+       footer{
+      
+      font-family: 'Comforter', cursive;
+      font-family: 'Comforter Brush', cursive;
+      font-family: 'Fredoka One', cursive;
+      font-family: 'Original Surfer', cursive;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 20px;
+      text-align: center; 
+    
+    }
+      
+      /* TABLAS DE EQUIPOS */
+    
+
+    .seleccionEquipos{
+      font-size: 20px;
+      
+    }
+
+      /*FlexBox*/
+
+    .contenedorFlex{
+      display: flex;
+      justify-content: flex-start;
+      
+
+    }
+
+   .itemFlex{
+
+      width: auto;
+      height: auto;
+      margin: 20px;
+      margin-top: 50px;
+      padding: 20px;
+      text-align: center;
+
+  }
+
+         /* GRID */
+
+  
+         .contenedorGrid{
+       display: grid;       
+       grid-template-columns: auto auto;
+       grid-template-rows: 300px 700px 50px;
+       padding: 20px;
+       margin: 0 auto;
+       width: auto;
+       height: auto;
+          
+      }
+      
+          
+   .d-flex{
+    background-image: url(./img/mlb.png);
+    background-size: auto;
+  }
+   
+
+
+
+
+
+
+/* Bootrap */
+
+        #imgc{
+          width: 150px;
+          height: 500px;
+          margin-top: 50px;
+       
+         
+        }
+
+        #carouselExampleFade{
+          margin-right: 200px;
+          margin-left: 200px;
+        }
+      
+
+        #logo{
+          width: 100px;
+          height: 100px;
+          border-radius: 10vh;
+        }
+
+  
+      .nav-responsive{
+      display: none;
+    }
+
+    @media screen and (max-width: 480px) {
+     .tablaMenu{
+       display: none;
+     }
+    
+     .nav-responsive{
+       display: block;
+       
+   }
+    
+
+    li.tablaMenuResponsive{
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    section div img{
+      width: 150px;
+      height: 150px;
+
+    }
+
+     iframe{
+      position: relative; right: 1px;
+      width: 300px;
+      height: 150px;
+  }
+
+    article p{
+    border: black solid 1px;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    }
+
+    
+
+  li.menuResponsive{
+    border: solid 2px rgb(109, 40, 13);
+    height: 25px;
+    width: 70px;
+    border-radius: 3vh;
+    text-align: center;
+    color: rgb(109, 40, 13);
+    text-decoration: none;
+  }
+
+  .formulario{
+    width: 300px;
+    height: 500px;
+  }
+
+  header{
+    width: auto;
+  }
+
+
+  .imgEquipo{
+    width: 70%;
+    height: auto;
+  }
+
+  footer{
+    text-align: left;
+  }
+
+  .imgnoticias{
+    width: 70%;
+    height: 50%;
+    margin: 0px;
+    
+  }
+
+  .contenedorFlex{
+    display: flex;
+    grid-template-columns: 100px;
+    grid-template-rows: 100px;
+  }
+
+  .itemFlex{
+
+    width: 50%;
+    height: 50%;
+    
+
+  }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 760px){
+  
+  
+  
+  .tablaMenu{
+    display: none;
+
+    }
+
+    .nav-responsive{
+      display: block;
+      
+      
+  }
+   
+  iframe{
+    position: relative left 100px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .formulario{
+    width: 300px;
+    height: 500px;
+  }
+
+.menuResponsive{
+  border: 2px solid rgb(109, 40, 13);
+  width: 15%;
+  border-radius: 3vh;
+  text-align: center;
+  
+}
+
+  .menuResponsive a{
+    color: rgb(109, 40, 13);
+    text-decoration: none;
+    
+  }
+
+  header{
+    width: auto;
+  }
+
+  .imgEquipo{
+    width: 70%;
+    height: auto;
+  }
+
+  footer{
+    text-align: left;
+  }
+
+  .imgnoticias{
+    width: 70%;
+    height: 50%;
+    margin: 2px; 
+
+    }
+
+    .contenedorFlex{
+      display: flex;
+    }
+  
+    .itemFlex{
+  
+      width: 50%;
+      height: 50%;
+  
+  
+    }
+
+
+
+
+}
