@@ -88,7 +88,7 @@ body{
 /* Animaciones */
 
 @keyframes mianimacion {
-  0%{background-image: url(../Secciones/img/mlb.png); background-size: cover;}
+  0%{background-image: url(../Secciones/img/mlb.png); background-size: cover  ;}
   50%{background-image: url(../Secciones/img/pelotas-blancas.jpg);}
   100%{background-image: url(../Secciones/img/mlb.png);}
   
