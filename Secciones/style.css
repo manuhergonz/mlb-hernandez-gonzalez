@@ -12,7 +12,7 @@
 
 
 body{
-  background-image: url(../Secciones/img/fondo-madera2.jpg);
+  background-image: linear-gradient(to left, black, gray, black, gray  );
   background-repeat: no-repeat;
   background-size: cover;
   
@@ -38,19 +38,7 @@ body{
 
 
                /* Menu */
-  header{
-  border-top: solid 5px rgb(109, 40, 13);
-  border-right: solid 5px rgb(109, 40, 13);
-  border-bottom: solid 5px rgb(109, 40, 13);
-  border-left: solid 5px rgb(109, 40, 13);
-  padding: 35px;
-  background-color: burlywood;
-  
-  
-    
-  
-
-}
+ 
 
 .tablaMenu{
 
@@ -77,24 +65,24 @@ body{
   font-family: 'Original Surfer', cursive;
   font-family: 'Patrick Hand', cursive;
   font-size: 40px;
-  color: rgb(179, 123, 51);
-  animation-name: mianimacion;
-  animation-duration: 15s;
-  animation-delay: 3s;
-
+  background-image: linear-gradient(black, gray);
+  color: white;
+  
 }
 
 
 /* Animaciones */
 
 @keyframes mianimacion {
-  0%{background-image: url(../Secciones/img/mlb.png); background-size: cover  ;}
-  50%{background-image: url(../Secciones/img/pelotas-blancas.jpg);}
-  100%{background-image: url(../Secciones/img/mlb.png);}
+
+  0%{background-image: url()}
+
+  50%{background-image: url()}
+
+  100%{background-image: url()}
   
+
 }
-
-
 
 
       /* imagenes de index */
@@ -122,6 +110,12 @@ body{
   }
 
 
+  .imgentradas{
+    margin-left: 500px;
+    
+  }
+
+
          /* Logo De Pagina */
 .logo{ 
    height: 100px;
@@ -133,14 +127,20 @@ body{
 
       
   article p{
-    border-radius: 3vh;
-    border-top: solid 1px rgb(109, 40, 13);
-    border-right: solid 1px rgb(109, 40, 13);
-    border-bottom: solid 1px rgb(109, 40, 13);
-    border-left: solid 1px rgb(109, 40, 13);
     padding: 15px;
     margin-top: 50px;
     text-align: center;
+    color: white;
+  
+  }
+
+  .articulo-boletos{
+    margin: 50px;
+    margin-top: 850px;
+    padding: 80px;
+    text-align: center;
+    color: white;
+
   }
 
 
@@ -158,15 +158,20 @@ body{
       tr td{
         width: 90px;
         height: 50px;
-        border-top: solid 5px rgb(109, 40, 13);
-        border-right: solid 5px rgb(109, 40, 13);
-        border-bottom: solid 5px rgb(109, 40, 13);
-        border-left: solid 5px rgb(109, 40, 13);
-        border-radius: 8pt;
+        border-top: solid 5px white;
+        border-right: solid 5px white;
+        border-bottom: solid 5px white;
+        border-left: solid 5px white;
+        border-radius: 5vh;
         text-align: center;
         }
       
-    
+    .tabla-boletos{
+      border-radius: 5vh;
+      color: white;
+
+
+    }
 
       /* Formulario */
 
@@ -176,16 +181,18 @@ body{
         border-radius: 5vh;
         padding: 20px;
         margin-right: 1000px;
-        border-top: solid 3px rgb(109, 40, 13);
-        border-right: solid 3px rgb(109, 40, 13);
-        border-bottom: solid 3px rgb(109, 40, 13);
-        border-left: solid 3px rgb(109, 40, 13);
+        border-top: solid 3px white;
+        border-right: solid 3px white;
+        border-bottom: solid 3px white;
+        border-left: solid 3px white;
+        color: white;
        
        
       }
 
 
             /* Pie De Pagina */
+
        footer{
       
       font-family: 'Comforter', cursive;
@@ -195,7 +202,8 @@ body{
       font-family: 'Patrick Hand', cursive;
       font-size: 20px;
       text-align: center; 
-      margin-top: 50px;
+      margin-top: 1000px;
+      color: white;
     
     }
       
@@ -204,6 +212,7 @@ body{
 
     .seleccionEquipos{
       font-size: 20px;
+      color: white;
       
     }
 
@@ -224,15 +233,14 @@ body{
       margin-top: 50px;
       padding: 20px;
       text-align: center;
-
+      background-image: linear-gradient(to left, black, gray, black );
+      color: white;
   }
 
   
   
           
-     
-      
-        
+  
 
                 /* Bootrap */
 
@@ -268,185 +276,30 @@ body{
         }
 
 
+        .imgentradas{
+          width: 250px;
+          height: 250px;
+          margin-top: -1000px;
+        }
+        
+        .btimg{
+          width: 400px;
+          margin-top: 100px;
+          margin-bottom: 100px;
+
+        }
 
 
 
+        .acordeon{
+          background: black;
+        }
 
 
-
-
-  
-      .nav-responsive{
-      display: none;
-    }
-
-    @media screen and (max-width: 480px) {
-     .tablaMenu{
-       display: none;
-     }
-    
-     .nav-responsive{
-       display: block;
-       
-   }
-    
-
-    li.tablaMenuResponsive{
-      text-decoration: none;
-      font-size: 20px;
-    }
-
-    section div img{
-      width: 150px;
-      height: 150px;
-
-    }
-
-     iframe{
-      position: relative; right: 1px;
-      width: 300px;
-      height: 150px;
-  }
-
-    article p{
-    border: black solid 1px;
-    width: 300px;
-    height: 100%;
-    text-align: center;
-    }
-
-    
-
-  li.menuResponsive{
-    border: solid 2px rgb(109, 40, 13);
-    height: 25px;
-    width: 70px;
-    border-radius: 3vh;
-    text-align: center;
-    color: rgb(109, 40, 13);
-    text-decoration: none;
-  }
-
-  .formulario{
-    width: 300px;
-    height: 500px;
-  }
-
-  header{
-    width: auto;
-  }
-
-
-  .imgEquipo{
-    width: 70%;
-    height: auto;
-  }
-
-  footer{
-    text-align: left;
-  }
-
-  .imgnoticias{
-    width: 70%;
-    height: 50%;
-    margin: 0px;
-    
-  }
-
-  .contenedorFlex{
-    display: flex;
-    grid-template-columns: 100px;
-    grid-template-rows: 100px;
-  }
-
-  .itemFlex{
-
-    width: 50%;
-    height: 50%;
-    
-
-  }
-
-
-
-
-}
-
-
-
-@media screen and (max-width: 760px){
-  
-  
-  
-  .tablaMenu{
-    display: none;
-
-    }
-
-    .nav-responsive{
-      display: block;
       
-      
-  }
-   
-  iframe{
-    position: relative left 100px;
-    width: 300px;
-    height: 300px;
-  }
-
-  .formulario{
-    width: 300px;
-    height: 500px;
-  }
-
-.menuResponsive{
-  border: 2px solid rgb(109, 40, 13);
-  width: 15%;
-  border-radius: 3vh;
-  text-align: center;
-  
-}
-
-  .menuResponsive a{
-    color: rgb(109, 40, 13);
-    text-decoration: none;
-    
-  }
-
-  header{
-    width: auto;
-  }
-
-  .imgEquipo{
-    width: 70%;
-    height: auto;
-  }
-
-  footer{
-    text-align: left;
-  }
-
-  .imgnoticias{
-    width: 70%;
-    height: 50%;
-    margin: 2px; 
-
-    }
-
-    .contenedorFlex{
-      display: flex;
-    }
-  
-    .itemFlex{
-  
-      width: 50%;
-      height: 50%;
-  
-  
-    }
 
 
 
-
-}
+        
+          
+        
