@@ -67,6 +67,9 @@ body{
   font-size: 40px;
   background-image: linear-gradient(black, gray);
   color: white;
+  animation-name: mianimacion;
+  animation-duration: 15s;
+  animation-delay: 3s;
   
 }
 
@@ -75,11 +78,11 @@ body{
 
 @keyframes mianimacion {
 
-  0%{background-image: url()}
+  0%{background-image: url(../Secciones/img/animacion1.jpg)}
 
-  50%{background-image: url()}
+  50%{background-image: url(../Secciones/img/animacion2.jpg)}
 
-  100%{background-image: url()}
+  100%{background-image: url(../Secciones/img/animacion3.jpg)}
   
 
 }
