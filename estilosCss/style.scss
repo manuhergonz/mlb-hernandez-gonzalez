@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap');
+
+$colorTexto: white;
+
+body{
+    background-image: linear-gradient(to left,black, gray, black, gray);
+}
+
+ .titulo{
+  
+    text-align: center;
+    font-family: 'Comforter', cursive;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Original Surfer', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    background-image: linear-gradient(black, gray);
+    color: $colorTexto;
+    animation-name: mianimacion;
+    animation-duration: 15s;
+    animation-delay: 3s; 
+}
+
+    @keyframes mianimacion {
+
+    0%{background-image: url(../img/animacion1.jpg)}
+  
+    50%{background-image: url(../img/animacion2.jpg)}
+  
+    100%{background-image: url(../img/animacion3.jpg)}
+}
+
+    // imagenes
+    .imgnoticias{
+      width: 300px;
+      height: 300px;
+      border-radius: 5vh;
+      margin: 70px;
+      }
+    .imgEquipo{
+        width: 1000px;
+        height: 500px;
+        border-radius: 5vh;
+        margin-top: 80px;
+        margin-left: 180px;
+      }
+   
+      .imguniversitario{
+         width: 500px;
+        }
+         .imgHome{
+          width: 400px;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          
+          
+        }
+        
+
+    // logo de pagina (menu)
+
+    .contenedorLogo{
+        background-image: url(../img/pelotas2.jpg);
+        background-size: 100%;
+        #logo{ 
+            height: 100px;
+            width: 100px;
+            border-radius: 50pt;
+            padding: 10px;
+         }
+      }
+    
+      article{
+        margin: 70px;
+         p{
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color: $colorTexto;      
+        }
+      }
+
+        // FlexBox
+          .contenedorFlex{
+            display: flex;
+            justify-content: flex-start;
+            .itemFlex{
+            width: auto;
+            height: auto;
+            margin: 20px;
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            background-image: linear-gradient(to left, black, gray, black );
+            color: $colorTexto;
+            }
+          }
+          
+     iframe{
+
+      position: relative; right: -400px;
+      width: 500px;
+      height: 400px;
+    }
+
+     .tabla-boletos{
+          border-radius: 5vh;
+          color: $colorTexto;
+      td{
+          width: 90px;
+          height: 50px;
+          border: {
+            top: solid 5px white;
+            right: solid 5px white;
+            bottom: solid 5px white;
+            left: solid 5px white;
+            radius: 5vh;
+          } 
+          text-align: center;
+       tr{    
+          width: 90px;
+          height: 50px;
+          border: {
+            top: solid 5px white;
+            right: solid 5px white;
+            bottom: solid 5px white;
+            left: solid 5px white;
+            radius: 5vh;
+          }
+          text-align: center;
+          
+        }
+       }
+      }
+
+      .formulario{
+        margin: {
+          top: 100px;
+          left: 500px;
+          right: 500px
+        }
+        border-radius: 5vh;
+        padding: 20px;
+        border: {
+            top: solid 3px white;
+            right: solid 3px white;
+            bottom: solid 3px white;
+            left: solid 3px white;
+
+        }
+        color: $colorTexto;  
+      }
+
+        .formEquipos{
+          margin-left: 35%;
+        .seleccionEquipos{
+            font-size: 20px;
+            color: $colorTexto;
+        }
+       }
+
+
+            /* Pie De Pagina */
+       footer{
+        font-family: 'Comforter', cursive;
+        font-family: 'Comforter Brush', cursive;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Original Surfer', cursive;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 20px;
+        text-align: center; 
+        margin-top: 500px;
+        color: $colorTexto;
+      
+      }
+
+
+

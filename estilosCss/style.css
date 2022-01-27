@@ -1,62 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap');
-
-*{
-  text-decoration: none;
-  font-family: 'Comforter', cursive;
-  font-family: 'Comforter Brush', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Original Surfer', cursive;
-  font-family: 'Patrick Hand', cursive;
-}
-
-
-body{
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap");
+body {
+  background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), color-stop(black), to(gray));
   background-image: linear-gradient(to left, black, gray, black, gray);
-  
-  
-
 }
 
- li.tablaMenu a{
-    border: solid 3px;
-    border-radius: 5vh;
-    padding: 5px;
-    margin: 30px;
-    color: rgb(109, 40, 13);
-    
-    
-  }
-
-  li.tablaMenu a:hover{
-    background-color: rgb(102, 80, 55);
-    border-radius: 5vh;
-  }
-
-
-
-
-               /* Menu */
- 
-
-.tablaMenu{
-
-  display: inline;
-  padding: 30px;
-  font-size: x-large;
-  font-family: 'Comforter', cursive;
-  font-family: 'Comforter Brush', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Original Surfer', cursive;
-  font-family: 'Patrick Hand', cursive;
-  
-  
-
-}
-
-            /* Titulos H1 */
-.titulo{
-  
+.titulo {
   text-align: center;
   font-family: 'Comforter', cursive;
   font-family: 'Comforter Brush', cursive;
@@ -64,262 +12,176 @@ body{
   font-family: 'Original Surfer', cursive;
   font-family: 'Patrick Hand', cursive;
   font-size: 40px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
   background-image: linear-gradient(black, gray);
   color: white;
-  animation-name: mianimacion;
-  animation-duration: 15s;
-  animation-delay: 3s; 
-  
+  -webkit-animation-name: mianimacion;
+          animation-name: mianimacion;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-
-/* Animaciones */
+@-webkit-keyframes mianimacion {
+  0% {
+    background-image: url(../img/animacion1.jpg);
+  }
+  50% {
+    background-image: url(../img/animacion2.jpg);
+  }
+  100% {
+    background-image: url(../img/animacion3.jpg);
+  }
+}
 
 @keyframes mianimacion {
-
-  0%{background-image: url(../img/animacion1.jpg)}
-
-  50%{background-image: url(../img/animacion2.jpg)}
-
-  100%{background-image: url(../img/animacion3.jpg)}
-  
-
+  0% {
+    background-image: url(../img/animacion1.jpg);
+  }
+  50% {
+    background-image: url(../img/animacion2.jpg);
+  }
+  100% {
+    background-image: url(../img/animacion3.jpg);
+  }
 }
 
+.imgnoticias {
+  width: 300px;
+  height: 300px;
+  border-radius: 5vh;
+  margin: 70px;
+}
 
-      /* imagenes de index */
-      
- section div img{
-   width: 320px;
-   height: 270px;
-   border-radius: 5vh;
-  }
+.imgEquipo {
+  width: 1000px;
+  height: 500px;
+  border-radius: 5vh;
+  margin-top: 80px;
+  margin-left: 180px;
+}
 
-  .imgEquipo{
-    width: 1000px;
-    height: 500px;
-    border-radius: 5vh;
-    margin-top: 80px;
-    margin-left: 180px;
-    
-  }
+.imguniversitario {
+  width: 500px;
+}
 
-  .imgnoticias{
-    width: 300px;
-    height: 300px;
-    border-radius: 5vh;
-    margin: 70px;
-  }
+.imgHome {
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
+.contenedorLogo {
+  background-image: url(../img/pelotas2.jpg);
+  background-size: 100%;
+}
 
-  .imgentradas{
-   height: 400px;
-    width: 350px;
-    
-  }
+.contenedorLogo #logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50pt;
+  padding: 10px;
+}
 
-  .universitario{
-    width: 500px;
-  }
+article {
+  margin: 70px;
+}
 
+article p {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
 
-         /* Logo De Pagina */
-.logo{ 
-   height: 100px;
-   width: 100px;
-   border-radius: 50pt;
-   padding: 10px;
-  
-  }
+.contenedorFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 
-      
-  article p{
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    color: white;
-  
-  }
+.contenedorFlex .itemFlex {
+  width: auto;
+  height: auto;
+  margin: 20px;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), to(black));
+  background-image: linear-gradient(to left, black, gray, black);
+  color: white;
+}
 
-  article{
-    margin: 70px;
+iframe {
+  position: relative;
+  right: -400px;
+  width: 500px;
+  height: 400px;
+}
 
-  }
+.tabla-boletos {
+  border-radius: 5vh;
+  color: white;
+}
 
-  
-  .articulo-boletos{
-    margin: 50px;
-    margin-top: 850px;
-    padding: 80px;
-    text-align: center;
-    color: white;
+.tabla-boletos td {
+  width: 90px;
+  height: 50px;
+  border-top: solid 5px white;
+  border-right: solid 5px white;
+  border-bottom: solid 5px white;
+  border-left: solid 5px white;
+  border-radius: 5vh;
+  text-align: center;
+}
 
-  }
+.tabla-boletos td tr {
+  width: 90px;
+  height: 50px;
+  border-top: solid 5px white;
+  border-right: solid 5px white;
+  border-bottom: solid 5px white;
+  border-left: solid 5px white;
+  border-radius: 5vh;
+  text-align: center;
+}
 
+.formulario {
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 5vh;
+  padding: 20px;
+  border-top: solid 3px white;
+  border-right: solid 3px white;
+  border-bottom: solid 3px white;
+  border-left: solid 3px white;
+  color: white;
+}
 
+.formEquipos {
+  margin-left: 35%;
+}
 
-     iframe{
+.formEquipos .seleccionEquipos {
+  font-size: 20px;
+  color: white;
+}
 
-      position: relative; right: -400px;
-      width: 500px;
-      height: 400px;
-
-    }
-      /* tabla de boletos  */
-
-     
-      tr td{
-        width: 90px;
-        height: 50px;
-        border-top: solid 5px white;
-        border-right: solid 5px white;
-        border-bottom: solid 5px white;
-        border-left: solid 5px white;
-        border-radius: 5vh;
-        text-align: center;
-        }
-      
-    .tabla-boletos{
-      border-radius: 5vh;
-      color: white;
-
-
-    }
-
-      /* Formulario */
-
-      .formulario{
-        margin-top: 80px;
-        margin-left: 50px;
-        border-radius: 5vh;
-        padding: 20px;
-        margin-right: 1000px;
-        border-top: solid 3px white;
-        border-right: solid 3px white;
-        border-bottom: solid 3px white;
-        border-left: solid 3px white;
-        color: white;
-       
-       
-      }
-
-
-            /* Pie De Pagina */
-
-       footer{
-      
-      font-family: 'Comforter', cursive;
-      font-family: 'Comforter Brush', cursive;
-      font-family: 'Fredoka One', cursive;
-      font-family: 'Original Surfer', cursive;
-      font-family: 'Patrick Hand', cursive;
-      font-size: 20px;
-      text-align: center; 
-      margin-top: 500px;
-      color: white;
-    
-    }
-      
-      /* TABLAS DE EQUIPOS */
-    
-
-    .seleccionEquipos{
-      font-size: 20px;
-      color: white;
-      
-    }
-
-      /*FlexBox*/
-
-    .contenedorFlex{
-      display: flex;
-      justify-content: flex-start;
-      
-
-    }
-
-   .itemFlex{
-
-      width: auto;
-      height: auto;
-      margin: 20px;
-      margin-top: 50px;
-      padding: 20px;
-      text-align: center;
-      background-image: linear-gradient(to left, black, gray, black );
-      color: white;
-  }
-
-  
-  
-          
-  
-
-                /* Bootrap */
-
-        #imgc{
-          width: 150px;
-          height: 500px;
-          margin-top: 50px;
-       
-         
-        }
-
-        #carouselExampleFade{
-          margin-right: 200px;
-          margin-left: 200px;
-        }
-      
-
-        #logo{
-          width: 100px;
-          height: 100px;
-          border-radius: 10vh;
-        }
-
-
-        .d-flex{
-          background-image: url(../Secciones/img/pelotas2.jpg);
-          background-size: 100%;
-        }
-         
-
-        .formEquipos{
-          margin-left: 35%;
-        }
-
-
-        .imgentradas{
-          width: 250px;
-          height: 250px;
-          margin-top: -1000px;
-        }
-        
-        .btimg{
-          width: 400px;
-          margin-top: 100px;
-          margin-bottom: 100px;
-
-        }
-
-
-
-        .acordeon{
-          background: black;
-        }
-
-
-      
-
-        
-        .caja1{
-          border: solid white 1px;
-          width: 250px;
-          height: 250px;
-          margin: 60px;
-          padding: 10px;
-          background-image: url(../img/fernando-tatisjr.jpg);
-          background-size: cover;
-        }
-          
-        
+/* Pie De Pagina */
+footer {
+  font-family: 'Comforter', cursive;
+  font-family: 'Comforter Brush', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Original Surfer', cursive;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 500px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
