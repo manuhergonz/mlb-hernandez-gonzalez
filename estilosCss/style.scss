@@ -3,6 +3,11 @@
 @import 'variables';
 @import 'animaciones';
 
+* { margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     background-image: linear-gradient(to left,black, gray, black, gray);
     margin: auto;
@@ -38,10 +43,12 @@ body{
         border-radius: 5vh;
         margin-top: 80px;
         margin-left: 180px;
+       
       }
    
          .imgHome{
           width: 400px;
+          
         }
 
         .appImg{
@@ -226,6 +233,45 @@ body{
         margin: 5px;
       }
 
+      .contenedorEntradas{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        }
+        
+      .caja1{
+        grid-column: auto;
+        width: 250px;
+        height: 250px;
+        border: solid 3px black;
+        margin: 80px;
+        background-image: url(../img/yankeeEntradas.jpg);
+        background-size: cover;
+        
+      }
+      .caja2{
+        width: 250px;
+        height: 250px;
+        border: solid 3px black;
+        margin: 80px;
+        background-image: url(../img/bostonEntradas.jpg);
+        background-size: cover;
+      }
+      .caja3{
+        width: 250px;
+        height: 250px;
+        border: solid 3px black;
+        margin: 80px;
+        background-image: url(../img/astrosEntradas.gif);
+        background-size: cover;
+      }
+
+      .botonComprar{
+        position: relative; 
+        left: 65px; 
+        top: 200px;
+      }
+
 
       // condicionales 
 
@@ -254,12 +300,14 @@ body{
       }
       footer{
         padding: 10px;
+        margin: 0;
         
       } 
       .imgEquipo{
         width: 650px;
         height: 400px;
         margin-left: 50px;
+        margin: 0;
       }
       .formulario{
         margin: 30px;
@@ -316,9 +364,18 @@ body{
               padding: 10px;
 
             }
-            
-          
-         
-    
-    
+
+        }
+
+    @media screen and (max-width: 576px){
+
+
+
+
+
+
+
+
+
     }
+    
