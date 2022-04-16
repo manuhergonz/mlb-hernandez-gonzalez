@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap');
 
+@font-face {
+  font-family: "titulos" ;
+  src: url(./fonts/RubikGlitch-Regular.ttf);
+
+  @font-face {
+    font-family: "titulo2" ;
+    src: url(./fonts/GrapeNuts-Regular.ttf);
+  }
+
+}
 @import 'variables';
 @import 'animaciones';
 
@@ -17,12 +27,8 @@ body {
 .titulo {
 
   text-align: center;
-  font-family: 'Comforter', cursive;
-  font-family: 'Comforter Brush', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Original Surfer', cursive;
-  font-family: 'Patrick Hand', cursive;
-  font-size: 50px;
+  font-family: "titulos";
+  font-size: 40px;
   background-image: linear-gradient(black, gray);
   color: $colorTexto;
   animation-name: mianimacion;
@@ -39,11 +45,9 @@ body {
 }
 
 .imgEquipo {
-  width: 700px;
+  width: 760px;
   height: 500px;
-  border-radius: 5vh;
-  margin-left: 50px;
-
+  border-radius: 7vh;
 
 }
 
@@ -214,11 +218,7 @@ iframe {
 
 /* Pie De Pagina */
 footer {
-  font-family: 'Comforter', cursive;
-  font-family: 'Comforter Brush', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Original Surfer', cursive;
-  font-family: 'Patrick Hand', cursive;
+  
   font-size: 20px;
   text-align: center;
   color: $colorTexto;
@@ -230,6 +230,7 @@ footer {
   .footerContacto {
     position: relative;
     top: 200px;
+    
   }
 
   .redes {
@@ -297,6 +298,20 @@ footer {
   top: 200px;
 }
 
+.navbarLetras{
+  font-family: "titulo2";
+  
+
+  }
+
+  .navbarLetras:hover{
+    transition: 0,5s;
+    background-color: transparent;
+    color: transparent;
+    border-radius: 10px 30px;
+    box-shadow: 0px 0px 40px whitesmoke;
+    
+  }
 
 // condicionales 
 
@@ -331,7 +346,7 @@ footer {
   }
 
   .imgEquipo {
-    width: 450px;
+    width: 520px;
     height: 300px;
     position: relative;
     left: 50px;

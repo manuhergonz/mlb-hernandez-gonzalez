@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap");
+@font-face {
+  font-family: "titulos";
+  src: url(./fonts/RubikGlitch-Regular.ttf);
+  @font-face {
+    font-family: "titulo2";
+    src: url(./fonts/GrapeNuts-Regular.ttf);
+  }
+}
+
 @-webkit-keyframes mianimacion {
   0% {
     background-image: url(../img/animacion1.jpg);
@@ -10,6 +19,7 @@
     background-image: url(../img/animacion3.jpg);
   }
 }
+
 @keyframes mianimacion {
   0% {
     background-image: url(../img/animacion1.jpg);
@@ -34,12 +44,8 @@ body {
 
 .titulo {
   text-align: center;
-  font-family: 'Comforter', cursive;
-  font-family: 'Comforter Brush', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Original Surfer', cursive;
-  font-family: 'Patrick Hand', cursive;
-  font-size: 50px;
+  font-family: "titulos";
+  font-size: 40px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
   background-image: linear-gradient(black, gray);
   color: white;
@@ -59,10 +65,9 @@ body {
 }
 
 .imgEquipo {
-  width: 700px;
+  width: 760px;
   height: 500px;
-  border-radius: 5vh;
-  margin-left: 50px;
+  border-radius: 7vh;
 }
 
 .imgHome {
@@ -213,11 +218,6 @@ iframe {
 
 /* Pie De Pagina */
 footer {
-  font-family: 'Comforter', cursive;
-  font-family: 'Comforter Brush', cursive;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Original Surfer', cursive;
-  font-family: 'Patrick Hand', cursive;
   font-size: 20px;
   text-align: center;
   color: white;
@@ -296,6 +296,20 @@ footer .redes {
   top: 200px;
 }
 
+.navbarLetras {
+  font-family: "titulo2";
+}
+
+.navbarLetras:hover {
+  -webkit-transition: 0,5s;
+  transition: 0,5s;
+  background-color: transparent;
+  color: transparent;
+  border-radius: 10px 30px;
+  -webkit-box-shadow: 0px 0px 40px whitesmoke;
+          box-shadow: 0px 0px 40px whitesmoke;
+}
+
 @media screen and (max-width: 768px) {
   .imgHome {
     width: 200px;
@@ -308,7 +322,7 @@ footer .redes {
     margin: 0;
   }
   .imgEquipo {
-    width: 450px;
+    width: 520px;
     height: 300px;
     position: relative;
     left: 50px;
