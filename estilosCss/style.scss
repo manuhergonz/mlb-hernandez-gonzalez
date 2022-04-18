@@ -45,15 +45,10 @@ body {
 }
 
 .imgEquipo {
-  width: 760px;
+  width: 70%;
   height: 500px;
   border-radius: 7vh;
-
-}
-
-.imgHome {
-  width: 400px;
-
+  margin-left: 20px;  
 }
 
 .appImg {
@@ -301,7 +296,6 @@ footer {
 .navbarLetras{
   font-family: "titulo2";
   
-
   }
 
   .navbarLetras:hover{
@@ -312,6 +306,22 @@ footer {
     box-shadow: 0px 0px 40px whitesmoke;
     
   }
+
+  .text-center{
+    display: flex;
+    
+
+    }
+
+  .imgHome {
+    width: 29%;
+    border-radius: 20px;
+    margin: 20px;
+    }
+   
+    
+
+  
 
 // condicionales 
 
@@ -330,6 +340,8 @@ footer {
 //   }
 // }
 
+
+    // Media Query
 
 @media screen and (max-width: 768px) {
   .imgHome {
@@ -417,6 +429,11 @@ footer {
 
   }
 
+  .imgHome{
+    width: 30%;
+    
+  }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -433,11 +450,21 @@ footer {
 
   }
 
+  .divEquipos{
+   display: flex; 
+}
 
+.imgHome{
+  width: 29%;
+  
+}
 
+}
 
+@media screen and (max-width: 466px){
 
-
-
+  .imgEquipo{
+    width: 300px; 
+    }
 
 }
