@@ -1,3 +1,16 @@
-inde.... listo
+// condicionales 
 
-contacto....
+// @for $i from 1 to 15 {
+//   .caja-#{$i}  {
+//     width: 100% / $i
+
+//   }
+// }      
+
+// EACH
+
+// @each $colores in blue, red, black, white {
+//   .colores--#{$colores} {
+//     background: $colores;
+//   }
+// }
