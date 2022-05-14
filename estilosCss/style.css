@@ -2,10 +2,11 @@
 @font-face {
   font-family: "titulos";
   src: url(./fonts/RubikGlitch-Regular.ttf);
-  @font-face {
-    font-family: "titulo2";
-    src: url(./fonts/GrapeNuts-Regular.ttf);
-  }
+}
+
+@font-face {
+  font-family: "titulos2";
+  src: url(./fonts/IndieFlower-Regular.ttf);
 }
 
 @-webkit-keyframes mianimacion {
@@ -32,6 +33,123 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .contenedorEquipos {
+    margin: 5px;
+    padding: 5px;
+  }
+  .parrafoEquipos p {
+    padding: 30px;
+  }
+  .imgHome {
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+    padding: 5px;
+  }
+  footer {
+    padding: 10px;
+    margin: 0;
+  }
+  .imgEquipo {
+    width: 520px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+  }
+  .formulario {
+    margin: 30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-left: 2px solid white;
+    border: solid 2px white;
+  }
+  .imgnoticias {
+    display: none;
+  }
+  .contenedorFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .itemFlex {
+    margin: 10px;
+    padding: 10px;
+  }
+  iframe {
+    position: relative;
+    right: -100px;
+    width: 400px;
+  }
+  .img1 {
+    width: 400px;
+    height: 200px;
+    background-image: url(../img/mookie-betts.jpg);
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+  }
+  .img2 {
+    background-image: url(../img/mike-trout.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+  }
+  .img3 {
+    background-image: url(../img/fernando-tatisjr.jpg);
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin: 20px;
+    padding: 10px;
+  }
+  .imgHome {
+    width: 30%;
+  }
+  .formEquipos {
+    position: relative;
+    left: 70px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .imgEquipo {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+  }
+  .formEquipos {
+    font-size: 10px;
+  }
+  .divEquipos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .imgHome {
+    width: 29%;
+  }
+  footer {
+    padding-left: 150px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .imgEquipo {
+    width: 300px;
+  }
+  footer {
+    padding-left: 150px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +158,7 @@
 body {
   background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), color-stop(black), to(gray));
   background-image: linear-gradient(to left, black, gray, black, gray);
+  width: 100%;
 }
 
 .titulo {
@@ -75,7 +194,7 @@ body {
   width: 400px;
   height: 100px;
   position: relative;
-  left: 900px;
+  left: 500px;
 }
 
 .botonCompra {
@@ -100,17 +219,17 @@ article {
 }
 
 article p {
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   text-align: center;
   color: white;
 }
 
 p {
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
   color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
 
 .contenedorFlex {
@@ -190,11 +309,10 @@ iframe {
   text-align: center;
 }
 
-.formulario {
-  margin: 100px;
-  margin-top: 100px;
-  margin-left: 500px;
-  margin-right: 500px;
+form {
+  text-align: center;
+  border: 5px;
+  margin: 40px;
   border-radius: 5vh;
   padding: 20px;
   border-top: solid 3px white;
@@ -206,14 +324,11 @@ iframe {
 
 input {
   border-radius: 10px;
+  margin: 2px;
 }
 
-.formEquipos {
-  position: relative;
-  left: 150px;
-}
-
-.formEquipos .seleccionEquipos {
+.seleccionEquipos {
+  margin-left: 50px;
   font-size: 20px;
   color: white;
 }
@@ -300,29 +415,24 @@ footer {
 }
 
 .navbarLetras {
-  font-family: "titulo2";
+  font-family: "titulos2";
 }
 
 .navbarLetras:hover {
-  -webkit-transition: 0,5s;
-  transition: 0,5s;
-  background-color: transparent;
-  color: transparent;
   border-radius: 10px 30px;
   -webkit-box-shadow: 0px 0px 40px whitesmoke;
           box-shadow: 0px 0px 40px whitesmoke;
 }
 
 .text-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .imgHome {
-  width: 29%;
+  width: 30%;
   border-radius: 20px;
-  margin: 20px;
 }
 
 .seccionContacto {
@@ -330,109 +440,8 @@ footer {
   top: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  .imgHome {
-    width: 200px;
-    height: 200px;
-    margin: 1px;
-    padding: 5px;
-  }
-  footer {
-    padding: 10px;
-    margin: 0;
-  }
-  .imgEquipo {
-    width: 520px;
-    height: 300px;
-    position: relative;
-    left: 50px;
-  }
-  .formulario {
-    margin: 30px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    border-left: 2px solid white;
-    border: solid 2px white;
-  }
-  .imgnoticias {
-    display: none;
-  }
-  .contenedorFlex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .itemFlex {
-    margin: 10px;
-    padding: 10px;
-  }
-  iframe {
-    position: relative;
-    right: -100px;
-    width: 400px;
-  }
-  .img1 {
-    width: 400px;
-    height: 200px;
-    background-image: url(../img/mookie-betts.jpg);
-    background-size: cover;
-    margin: 20px;
-    padding: 10px;
-  }
-  .img2 {
-    background-image: url(../img/mike-trout.jpg);
-    background-size: cover;
-    width: 400px;
-    height: 200px;
-    margin: 20px;
-    padding: 10px;
-  }
-  .img3 {
-    background-image: url(../img/fernando-tatisjr.jpg);
-    width: 400px;
-    height: 200px;
-    background-size: cover;
-    margin: 20px;
-    padding: 10px;
-  }
-  .imgHome {
-    width: 30%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .imgEquipo {
-    width: 400px;
-    height: 300px;
-    position: relative;
-    left: 50px;
-  }
-  .formEquipos {
-    font-size: 10px;
-  }
-  .divEquipos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .imgHome {
-    width: 29%;
-  }
-  footer {
-    padding-left: 150px;
-  }
-}
-
-@media screen and (max-width: 466px) {
-  .imgEquipo {
-    width: 300px;
-  }
-  footer {
-    padding-left: 150px;
-  }
+.contenedorBoleteria {
+  margin: 20px;
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */

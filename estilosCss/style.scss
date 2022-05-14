@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fredoka+One&family=Original+Surfer&family=Patrick+Hand&display=swap');
 
 @font-face {
-  font-family: "titulos" ;
+  font-family: "titulos";
   src: url(./fonts/RubikGlitch-Regular.ttf);
 
-  @font-face {
-    font-family: "titulo2" ;
-    src: url(./fonts/GrapeNuts-Regular.ttf);
-  }
-
 }
+
+@font-face {
+  font-family: "titulos2";
+  src: url(./fonts/IndieFlower-Regular.ttf);
+}
+
+
 @import 'variables';
 @import 'animaciones';
+@import 'mediaQuery';
 
 * {
   margin: 0;
@@ -21,7 +24,7 @@
 
 body {
   background-image: linear-gradient(to left, black, gray, black, gray);
-
+  width: 100%;
 }
 
 .titulo {
@@ -48,14 +51,14 @@ body {
   width: 70%;
   height: 500px;
   border-radius: 7vh;
-  margin-left: 20px;  
+  margin-left: 20px;
 }
 
 .appImg {
   width: 400px;
   height: 100px;
   position: relative;
-  left: 900px;
+  left: 500px;
 
 }
 
@@ -82,18 +85,18 @@ article {
   margin: 70px;
 
   p {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     text-align: center;
     color: $colorTexto;
   }
 }
 
 p {
-  padding: 5px;
-  margin: 5px;
+  color: $colorTexto;
   text-align: center;
-  color: $colorTexto
+  margin: 10px;
+  padding: 10px;
 }
 
 // FlexBox
@@ -126,7 +129,6 @@ p {
     h2 {
       text-align: center;
     }
-
   }
 }
 
@@ -148,11 +150,11 @@ iframe {
     height: 50px;
 
     border: {
-    top: solid 5px white;
-    right: solid 5px white;
-    bottom: solid 5px white;
-    left: solid 5px white;
-    radius: 5vh;
+      top: solid 5px white;
+      right: solid 5px white;
+      bottom: solid 5px white;
+      left: solid 5px white;
+      radius: 5vh;
 
     }
 
@@ -164,11 +166,11 @@ iframe {
       height: 50px;
 
       border: {
-      top: solid 5px white;
-      right: solid 5px white;
-      bottom: solid 5px white;
-      left: solid 5px white;
-      radius: 5vh;
+        top: solid 5px white;
+        right: solid 5px white;
+        bottom: solid 5px white;
+        left: solid 5px white;
+        radius: 5vh;
       }
 
       text-align: center;
@@ -177,42 +179,45 @@ iframe {
   }
 }
 
-.formulario {
-  margin: 100px;
+form {
+  text-align: center;
+  border: 5px;
+  margin: 40px;
 
   margin: {
-    top: 100px;
-    left: 500px;
-    right: 500px
+    // right: 900px
   }
 
   border-radius: 5vh;
   padding: 20px;
 
-    border: {
+  border: {
     top: solid 3px white;
     right: solid 3px white;
     bottom: solid 3px white;
     left: solid 3px white;
   }
-color: $colorTexto;
+
+  color: $colorTexto;
 
 }
 
-input{
+input {
   border-radius: 10px;
+  margin: 2px;
 }
 
-.formEquipos {
-  position: relative;
-  left: 150px;
+// .formEquipos {
+// position: relative;
+// left: 150px; 
+// }
 
 
 .seleccionEquipos {
+  margin-left: 50px;
   font-size: 20px;
   color: $colorTexto;
- 
-  }
+
 }
 
 /* Pie De Pagina */
@@ -226,17 +231,17 @@ footer {
   background-image: linear-gradient(to left, gray, black, gray, black);
 }
 
-  .tituloRedes{
-    position: relative;
-    right: 235px;
-    margin-top: 20px;
-  }
+.tituloRedes {
+  position: relative;
+  right: 235px;
+  margin-top: 20px;
+}
 
 
 .redes {
-    position: relative;
-    right: 235px;
-  }
+  position: relative;
+  right: 235px;
+}
 
 
 .logoInstagram {
@@ -298,159 +303,35 @@ footer {
   top: 200px;
 }
 
-.navbarLetras{
-  font-family: "titulo2";
-  
-  }
-
-  .navbarLetras:hover{
-    transition: 0,5s;
-    background-color: transparent;
-    color: transparent;
-    border-radius: 10px 30px;
-    box-shadow: 0px 0px 40px whitesmoke;
-    
-  }
-
-  .text-center{
-    display: flex;
-    
-    }
-
-  .imgHome {
-    width: 29%;
-    border-radius: 20px;
-    margin: 20px;
-    }
-
-    .seccionContacto{
-      position: relative;
-      top: 100px;
-    }
-   
-         // Media Query
-
-@media screen and (max-width: 768px) {
-  .imgHome {
-    width: 200px;
-    height: 200px;
-    margin: 1px;
-    padding: 5px;
-  }
-
-  footer {
-    padding: 10px;
-    margin: 0;
-
-  }
-
-  .imgEquipo {
-    width: 520px;
-    height: 300px;
-    position: relative;
-    left: 50px;
-  }
-
-  .formulario {
-    margin: 30px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    border-left: 2px solid white;
-    border: solid 2px white;
-  }
-
-  .imgnoticias {
-    display: none;
-  }
-
-  .contenedorFlex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .itemFlex {
-    margin: 10px;
-    padding: 10px;
-  }
-
-  iframe {
-    position: relative;
-    right: -100px;
-    width: 400px;
-
-  }
-
-  .img1 {
-    width: 400px;
-    height: 200px;
-    background-image: url(../img/mookie-betts.jpg);
-    background-size: cover;
-    margin: 20px;
-    padding: 10px;
-  }
-
-  .img2 {
-    background-image: url(../img/mike-trout.jpg);
-    background-size: cover;
-    width: 400px;
-    height: 200px;
-    margin: 20px;
-    padding: 10px;
-  }
-
-  .img3 {
-    background-image: url(../img/fernando-tatisjr.jpg);
-    width: 400px;
-    height: 200px;
-    background-size: cover;
-    margin: 20px;
-    padding: 10px;
-
-  }
-
-  .imgHome{
-    width: 30%;
-    
-  }
+.navbarLetras {
+  font-family: "titulos2";
 
 }
 
-@media screen and (max-width: 576px) {
-
-  .imgEquipo {
-    width: 400px;
-    height: 300px;
-    position: relative;
-    left: 50px;
-  }
-
-  .formEquipos {
-    font-size: 10px;
-
-  }
-
-  .divEquipos{
-   display: flex; 
-}
-
-.imgHome{
-  width: 29%;  
-}
-
-footer{
-  padding-left: 150px;
-}
+.navbarLetras:hover {
+  border-radius: 10px 30px;
+  box-shadow: 0px 0px 40px whitesmoke;
 
 }
 
-@media screen and (max-width: 466px){
-
-  .imgEquipo{
-    width: 300px; 
-    }
-
-    footer{
-      padding-left: 150px;
-    }
+.text-center {
+  justify-content: center;
 
 }
+
+.imgHome {
+  width: 30%;
+  border-radius: 20px;
+
+}
+
+.seccionContacto {
+  position: relative;
+  top: 100px;
+}
+
+.contenedorBoleteria {
+  margin: 20px;
+  padding: 20px;
+}
+
