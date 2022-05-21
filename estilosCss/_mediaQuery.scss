@@ -52,13 +52,6 @@ margin: 10px;
 padding: 10px;
 }
 
-iframe {
-position: relative;
-right: -100px;
-width: 400px;
-
-}
-
 .img1 {
 width: 400px;
 height: 200px;
@@ -96,6 +89,13 @@ width: 30%;
     left: 70px;
 }
 
+.appImg{
+    position: relative;
+    right: 300px;
+
+
+}
+
 
 
 }
@@ -122,8 +122,8 @@ display: flex;
 width: 29%;  
 }
 
-footer{
-padding-left: 150px;
+.logosRedesSociales{
+    margin-left: 150px;
 }
 
 }
