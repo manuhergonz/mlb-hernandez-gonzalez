@@ -38,48 +38,6 @@ border-left: 2px solid white;
 border: solid 2px white;
 }
 
-.imgnoticias {
-display: none;
-}
-
-.contenedorFlex {
-display: flex;
-flex-direction: column;
-}
-
-.itemFlex {
-margin: 10px;
-padding: 10px;
-}
-
-.img1 {
-width: 400px;
-height: 200px;
-background-image: url(../img/mookie-betts.jpg);
-background-size: cover;
-margin: 20px;
-padding: 10px;
-}
-
-.img2 {
-background-image: url(../img/mike-trout.jpg);
-background-size: cover;
-width: 400px;
-height: 200px;
-margin: 20px;
-padding: 10px;
-}
-
-.img3 {
-background-image: url(../img/fernando-tatisjr.jpg);
-width: 400px;
-height: 200px;
-background-size: cover;
-margin: 20px;
-padding: 10px;
-
-}
-
 .imgHome{
 width: 30%;
 }
@@ -92,13 +50,10 @@ width: 30%;
 .appImg{
     position: relative;
     right: 300px;
-
+}
 
 }
 
-
-
-}
 
 @media screen and (max-width: 576px) {
 

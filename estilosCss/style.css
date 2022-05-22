@@ -64,46 +64,6 @@
     border-left: 2px solid white;
     border: solid 2px white;
   }
-  .imgnoticias {
-    display: none;
-  }
-  .contenedorFlex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .itemFlex {
-    margin: 10px;
-    padding: 10px;
-  }
-  .img1 {
-    width: 400px;
-    height: 200px;
-    background-image: url(../img/mookie-betts.jpg);
-    background-size: cover;
-    margin: 20px;
-    padding: 10px;
-  }
-  .img2 {
-    background-image: url(../img/mike-trout.jpg);
-    background-size: cover;
-    width: 400px;
-    height: 200px;
-    margin: 20px;
-    padding: 10px;
-  }
-  .img3 {
-    background-image: url(../img/fernando-tatisjr.jpg);
-    width: 400px;
-    height: 200px;
-    background-size: cover;
-    margin: 20px;
-    padding: 10px;
-  }
   .imgHome {
     width: 30%;
   }
@@ -177,9 +137,8 @@ body {
 
 .imgnoticias {
   width: 300px;
-  height: 300px;
+  height: 250px;
   border-radius: 5vh;
-  margin: 70px;
 }
 
 .imgEquipo {
@@ -228,54 +187,36 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contenedorFlex .itemFlex {
   width: auto;
   height: auto;
-  margin: 20px;
-  margin-top: 50px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   text-align: center;
   background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), to(black));
   background-image: linear-gradient(to left, black, gray, black);
   color: white;
-}
-
-.contenedor2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.contenedor2 .itemFlex {
-  margin: 50px;
-  padding: 50px;
-  background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), to(black));
-  background-image: linear-gradient(to left, black, gray, black);
-  color: white;
-}
-
-.contenedor2 .itemFlex h2 {
-  text-align: center;
+  border-radius: 30px;
 }
 
 iframe {
-  width: 500px;
+  width: 400px;
   height: 400px;
+  border-radius: 20px;
 }
 
 .tabla-boletos {
   border-radius: 5vh;
   color: white;
   margin: 30px;
-  margin-top: 300px;
+  margin-top: 200px;
 }
 
 .tabla-boletos td {
@@ -420,7 +361,7 @@ input {
 }
 
 .logosRS {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
