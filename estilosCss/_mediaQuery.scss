@@ -1,96 +1,27 @@
 
 @media screen and (max-width: 768px) {
-
-.contenedorEquipos{
-    margin: 5px;
-    padding: 5px;
-
+    
+.imgEquipo{
+    width: 500px;
 }
 
-.parrafoEquipos p{
-    padding: 30px;
-}
 
-.imgHome {
-width: 200px;
-height: 200px;
-margin: 1px;
-padding: 5px;
-}
-
-footer {
-padding: 10px;
-margin: 0;
-}
-
-.imgEquipo {
-width: 520px;
-height: 300px;
-position: relative;
-left: 50px;
-}
-
-.formulario {
-margin: 30px;
-margin-left: 100px;
-margin-bottom: 100px;
-border-left: 2px solid white;
-border: solid 2px white;
-}
-
-.imgHome{
-width: 30%;
-}
-
-.formEquipos{
-    position: relative; 
-    left: 70px;
-}
-
-.appImg{
-    position: relative;
-    right: 300px;
-}
 
 }
 
 
 @media screen and (max-width: 576px) {
 
-.imgEquipo {
-width: 400px;
-height: 300px;
-position: relative;
-left: 50px;
-}
+  .imgEquipo{
+      width: 400px;
+  }
 
-.formEquipos {
-font-size: 10px;
-
-}
-
-.divEquipos{
-display: flex; 
-}
-
-.imgHome{
-width: 29%;  
-}
-
-.logosRedesSociales{
-    margin-left: 150px;
-}
 
 }
 
 @media screen and (max-width: 466px){
 
-.imgEquipo{
-width: 300px; 
-}
 
-footer{
-padding-left: 150px;
-}
+
 
 }

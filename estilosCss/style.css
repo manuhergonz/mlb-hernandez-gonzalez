@@ -34,78 +34,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .contenedorEquipos {
-    margin: 5px;
-    padding: 5px;
-  }
-  .parrafoEquipos p {
-    padding: 30px;
-  }
-  .imgHome {
-    width: 200px;
-    height: 200px;
-    margin: 1px;
-    padding: 5px;
-  }
-  footer {
-    padding: 10px;
-    margin: 0;
-  }
   .imgEquipo {
-    width: 520px;
-    height: 300px;
-    position: relative;
-    left: 50px;
-  }
-  .formulario {
-    margin: 30px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    border-left: 2px solid white;
-    border: solid 2px white;
-  }
-  .imgHome {
-    width: 30%;
-  }
-  .formEquipos {
-    position: relative;
-    left: 70px;
-  }
-  .appImg {
-    position: relative;
-    right: 300px;
+    width: 500px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .imgEquipo {
     width: 400px;
-    height: 300px;
-    position: relative;
-    left: 50px;
-  }
-  .formEquipos {
-    font-size: 10px;
-  }
-  .divEquipos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .imgHome {
-    width: 29%;
-  }
-  .logosRedesSociales {
-    margin-left: 150px;
-  }
-}
-
-@media screen and (max-width: 466px) {
-  .imgEquipo {
-    width: 300px;
-  }
-  footer {
-    padding-left: 150px;
   }
 }
 
@@ -142,10 +78,7 @@ body {
 }
 
 .imgEquipo {
-  width: 70%;
-  height: 500px;
   border-radius: 7vh;
-  margin-left: 20px;
 }
 
 .botonCompra {
@@ -187,9 +120,6 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -197,7 +127,7 @@ p {
 .contenedorFlex .itemFlex {
   width: auto;
   height: auto;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
   text-align: center;
   background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), to(black));
@@ -243,10 +173,14 @@ iframe {
 
 form {
   text-align: center;
+  display: inline-block;
   border: 5px;
-  margin: 40px;
+  margin: 10px;
   border-radius: 5vh;
-  padding: 20px;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-top: solid 3px white;
   border-right: solid 3px white;
   border-bottom: solid 3px white;
@@ -259,8 +193,12 @@ input {
   margin: 2px;
 }
 
+textarea {
+  border-radius: 20px;
+}
+
 .seleccionEquipos {
-  margin-left: 50px;
+  margin-left: 10px;
   font-size: 20px;
   color: white;
 }
@@ -363,5 +301,29 @@ input {
 .logosRS {
   width: 30px;
   height: 30px;
+}
+
+.contenedorEquipos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorEquipos .divEquipos {
+  margin: 10px;
+}
+
+.formEquipos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

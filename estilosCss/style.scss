@@ -11,7 +11,6 @@
   src: url(./fonts/IndieFlower-Regular.ttf);
 }
 
-
 @import 'variables';
 @import 'animaciones';
 @import 'mediaQuery';
@@ -48,10 +47,10 @@ body {
 }
 
 .imgEquipo {
-  width: 70%;
-  height: 500px;
+  // width: 600px;
+  // height: 400px;
   border-radius: 7vh;
-  margin-left: 20px;
+  
 }
 
 .botonCompra {
@@ -91,16 +90,15 @@ p {
   padding: 10px;
 }
 
-// FlexBox
+// FlexBox NOTICIAS
+
 .contenedorFlex {
   display: flex;
-//  flex-direction: column;
- justify-content: space-between;
- flex-wrap: wrap;
+  flex-wrap: wrap;
  .itemFlex {
     width: auto;
     height: auto;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
     text-align: center;
     background-image: linear-gradient(to left, black, gray, black);
@@ -158,25 +156,19 @@ iframe {
 
 form {
   text-align: center;
+  display: inline-block;
   border: 5px;
-  margin: 40px;
-
-  margin: {
-    // right: 900px
-  }
-
+  margin: 10px;
   border-radius: 5vh;
-  padding: 20px;
-
-  border: {
-    top: solid 3px white;
-    right: solid 3px white;
-    bottom: solid 3px white;
-    left: solid 3px white;
+  padding: 10px;
+  justify-content: center;
+      border: {
+      top: solid 3px white;
+      right: solid 3px white;
+      bottom: solid 3px white;
+      left: solid 3px white;
   }
-
-  color: $colorTexto;
-
+      color: $colorTexto;
 }
 
 input {
@@ -184,14 +176,13 @@ input {
   margin: 2px;
 }
 
-// .formEquipos {
-// position: relative;
-// left: 150px; 
-// }
+textarea{
+  border-radius: 20px;
+}
 
 
 .seleccionEquipos {
-  margin-left: 50px;
+margin-left: 10px;
   font-size: 20px;
   color: $colorTexto;
 
@@ -282,7 +273,6 @@ align-items: flex-end;
 color: $colorTexto;
 height: 200px;
 background-image: linear-gradient(to left, gray, black, gray, black);
- 
 }
 
 .logosRS{
@@ -290,3 +280,16 @@ background-image: linear-gradient(to left, gray, black, gray, black);
   height: 30px;
 }
 
+.contenedorEquipos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+      .divEquipos{
+        margin: 10px;
+      }
+}
+
+.formEquipos{
+  display: flex;
+  justify-content: center;
+}
