@@ -53,7 +53,6 @@
 body {
   background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), color-stop(black), to(gray));
   background-image: linear-gradient(to left, black, gray, black, gray);
-  width: 100%;
 }
 
 .titulo {
@@ -99,7 +98,8 @@ body {
 }
 
 article {
-  margin: 70px;
+  margin: 10px;
+  padding: 10px;
 }
 
 article p {
@@ -112,8 +112,8 @@ article p {
 p {
   color: white;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .contenedorFlex {
@@ -122,6 +122,9 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contenedorFlex .itemFlex {
@@ -283,16 +286,15 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  color: white;
   height: 200px;
   background-image: -webkit-gradient(linear, right top, left top, from(gray), color-stop(black), color-stop(gray), to(black));
   background-image: linear-gradient(to left, gray, black, gray, black);
@@ -300,7 +302,11 @@ textarea {
 
 .logosRS {
   width: 30px;
-  height: 30px;
+  height: 35px;
+}
+
+.wtsLogo {
+  height: 40px;
 }
 
 .contenedorEquipos {
@@ -319,6 +325,72 @@ textarea {
 }
 
 .formEquipos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedorUsuario {
+  width: 300px;
+  height: 500px;
+  border: solid gray 3px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.imgUsuario {
+  width: 100px;
+  height: 100px;
+  margin: 50px 50px 15px 100px;
+  border-radius: 50%;
+}
+
+.parrafo {
+  margin: 0px 0px 5px 0px;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datos {
+  margin: 0px 15px 0px 15px;
+}
+
+.inputUsuario {
+  margin: 0px 0px 0px 0px;
+  width: 99%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 80%;
+  height: 50px;
+  margin: 15px 0px 0px 30px;
+  background-color: #585193;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #7500e2;
+}
+
+.parrafo2 {
+  margin: 20px 40px 0px 80px;
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.parrafo2:hover {
+  background-color: gray;
+}
+
+.contenedorGrande {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

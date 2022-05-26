@@ -23,7 +23,8 @@
 
 body {
   background-image: linear-gradient(to left, black, gray, black, gray);
-  width: 100%;
+  // width: 100%;
+  
 }
 
 .titulo {
@@ -73,7 +74,8 @@ body {
 }
 
 article {
-  margin: 70px;
+  margin: 10px;
+  padding: 10px;
 
   p {
     padding: 5px;
@@ -86,8 +88,8 @@ article {
 p {
   color: $colorTexto;
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
 }
 
 // FlexBox NOTICIAS
@@ -95,6 +97,7 @@ p {
 .contenedorFlex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
  .itemFlex {
     width: auto;
     height: auto;
@@ -267,18 +270,23 @@ margin-left: 10px;
 
 .contenedorFooter{
 display: flex;
-flex-direction: row-reverse;
+flex-direction: row;
 justify-content: center;
 align-items: flex-end;
-color: $colorTexto;
 height: 200px;
 background-image: linear-gradient(to left, gray, black, gray, black);
 }
 
 .logosRS{
   width: 30px;
-  height: 30px;
+  height: 35px;
 }
+
+.wtsLogo{
+  height: 40px;
+}
+
+
 
 .contenedorEquipos{
   display: flex;
@@ -290,6 +298,70 @@ background-image: linear-gradient(to left, gray, black, gray, black);
 }
 
 .formEquipos{
+  display: flex;
+  justify-content: center;
+}
+
+// INICIO DE SESION
+
+.contenedorUsuario{
+  width: 300px;
+  height: 500px;
+  border: solid gray 3px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.imgUsuario{
+  width: 100px;
+  height: 100px;
+  margin: 50px 50px 15px 100px;
+  border-radius: 50%;
+}
+
+.parrafo{
+  margin: 0px 0px 5px 0px;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}       
+
+  .datos{  
+      margin: 0px 15px 0px 15px;
+  }
+
+.inputUsuario{
+  margin: 0px 0px 0px 0px;
+  width: 99%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 2px;
+ 
+  
+}
+.btn{
+  border-radius: 5px;
+  width: 80%;
+  height: 50px;
+  margin: 15px 0px 0px 30px;
+  background-color: rgb(88, 81, 147);
+  color: white;
+}
+
+.btn:hover{
+  background-color: rgb(117, 0, 226);
+}
+
+.parrafo2{
+  margin: 20px 40px 0px 80px;
+ border: solid black 1px;
+ border-radius: 10px;
+  padding: 5px;
+}
+
+.parrafo2:hover{
+  background-color: gray;
+}
+.contenedorGrande{
   display: flex;
   justify-content: center;
 }
