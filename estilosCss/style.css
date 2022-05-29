@@ -174,20 +174,39 @@ iframe {
   text-align: center;
 }
 
-form {
-  text-align: center;
-  display: inline-block;
-  border: 5px;
-  margin: 10px;
-  border-radius: 5vh;
+.contenedorForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.itemsForm {
+  margin: 1px;
+  padding: 1px;
+}
+
+.borderForm {
+  border: solid white;
   padding: 10px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-top: solid 3px white;
-  border-right: solid 3px white;
-  border-bottom: solid 3px white;
-  border-left: solid 3px white;
+  border-radius: 20px 65px 80px 45px;
+}
+
+legend {
+  color: white;
+}
+
+label {
   color: white;
 }
 
