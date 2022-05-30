@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 576px) {
   .imgEquipo {
-    width: 400px;
+    width: 300px;
   }
 }
 
@@ -53,6 +53,11 @@
 body {
   background-image: -webkit-gradient(linear, right top, left top, from(black), color-stop(gray), color-stop(black), to(gray));
   background-image: linear-gradient(to left, black, gray, black, gray);
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .titulo {
@@ -282,6 +287,11 @@ textarea {
           justify-content: center;
 }
 
+.imgHome:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+
 .imgHome {
   width: 30%;
   border-radius: 20px;
@@ -315,13 +325,19 @@ textarea {
       -ms-flex-align: end;
           align-items: flex-end;
   height: 200px;
+  margin-top: 20px;
   background-image: -webkit-gradient(linear, right top, left top, from(gray), color-stop(black), color-stop(gray), to(black));
   background-image: linear-gradient(to left, gray, black, gray, black);
 }
 
 .logosRS {
-  width: 30px;
-  height: 35px;
+  width: 40px;
+  height: 45px;
+}
+
+.logosRS:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .wtsLogo {
@@ -357,7 +373,7 @@ textarea {
   height: 500px;
   border: solid gray 3px;
   margin: 50px;
-  border-radius: 10px;
+  border-radius: 10px 50px 80px 45px;
 }
 
 .imgUsuario {
