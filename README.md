@@ -1,1 +1,1 @@
-# Proyecto CoderHouse (no terminado)
+# Proyecto (no terminado)
