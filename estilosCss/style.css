@@ -57,32 +57,44 @@ body {
 
 .nav-link:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.2);
+  transform: scale(1.4);
 }
 
 .titulo {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: center;
   font-family: "titulos";
   font-size: 40px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
-  background-image: linear-gradient(black, gray);
   color: white;
   -webkit-animation-name: mianimacion;
           animation-name: mianimacion;
-  -webkit-animation-duration: 15s;
-          animation-duration: 15s;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-duration: 160s;
+          animation-duration: 160s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .imgnoticias {
   width: 300px;
   height: 250px;
   border-radius: 5vh;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+.imgnoticias:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
 }
 
 .imgEquipo {
   border-radius: 7vh;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
 .botonCompra {
@@ -183,15 +195,9 @@ iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 5px;
   margin-bottom: 20px;
 }
@@ -295,6 +301,9 @@ textarea {
 .imgHome {
   width: 30%;
   border-radius: 20px;
+  box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
 }
 
 .contenedorBoleteria {
@@ -332,16 +341,12 @@ textarea {
 
 .logosRS {
   width: 40px;
-  height: 45px;
+  height: 25px;
 }
 
 .logosRS:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-.wtsLogo {
-  height: 40px;
+  -webkit-transform: scale(1.9);
+  transform: scale(1.5);
 }
 
 .contenedorEquipos {
@@ -384,6 +389,7 @@ textarea {
 }
 
 .parrafo {
+  text-shadow: 7px 4px 2px rgba(0, 0, 0, 0.49);
   margin: 0px 0px 5px 0px;
   font-size: 25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

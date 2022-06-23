@@ -17,42 +17,4 @@
 
 
 
- <!-- <article>
-
-    <p>
-      Las Grandes Ligas de Béisbol (en inglés: Major League Baseball (MLB)) son una organización profesional de béisbol
-      y las más antiguas de las ligas mayores profesionales deportivas en Estados Unidos y Canadá. Conformada por 30
-      equipos que juegan en la Liga Nacional de Béisbol (NL) y en la Liga Americana (AL), con 15 equipos en cada liga.
-      La NL se crea en el año 1876 y la AL en 1901. A partir de 1903 las ligas empiezan a cooperar pero permaneciendo
-      como entidades separadas hasta que se fusionan en una misma organización en el año 2000, liderada por el
-      Comisionado de Béisbol. La organización también supervisa las Ligas Menores de Béisbol, formada por 256 equipos
-      afiliados a los equipos de las ligas mayores. También, junto a la Confederación Mundial de Softball, la MLB dirige
-      a nivel internacional el Campeonato Mundial Clásico de Béisbol.</p>
-
-    <p> La sede de la Major League Baseball en el 245 de Park Avenue, Midtown Manhattan, Nueva York, EE. UU.1​
-      El primer equipo profesional de béisbol fue fundado en Cincinnati en 1869. Previamente algunos equipos les pagaban
-      a los jugadores "por debajo de la mesa". Las primeras décadas de béisbol profesional fueron caracterizadas por las
-      rivalidades entre ligas y por jugadores que frecuentemente brincaban de un equipo o de una liga a otro.</p>
-
-    <p> El período entre 1920 fue conocido como la era de la bola muerta, donde raramente los jugadores podían batear un
-      Home Run. A fines de la década de 1910, el béisbol sobrevivió a la conspiración del arreglo de la Serie Mundial de
-      1919, conocido como El escándalo de los Black Sox. El deporte emergió en popularidad en los años 20 y sobrevivió a
-      crisis severas como la Gran Depresión y la Segunda Guerra Mundial. Un corto tiempo después de la guerra, Jackie
-      Robinson rompió la barrera del color en las Ligas Mayores, cuando fue contratado por Brooklyn Dodgers.</p>
-
-    <p> Entre los años 50 y 60 fue el tiempo de la expansión para la AL y NL, cuando aparecieron nuevos estadios y
-      superficies artificiales (pasto sintético) iniciándose este cambio de juego entre las décadas de 1970 y 80. Los
-      home runs dominaron el juego durante los años 90 y comenzaron a conocerse de reportes que inició la polémica sobre
-      el uso de esteroides entre jugadores de las Ligas Mayores a mediados de los años 2000 en una investigación
-      conocida como Reporte Mitchell, en donde fueron implicados muchos jugadores en el uso de sustancias prohibidas
-      para mejorar su desempeño, encontrando un jugador en cada equipo con dopaje positivo.</p>
-
-    <p> Hoy, la MLB está formada por 30 equipos: 29 en los Estados  Unidos y uno en Canadá. Los equipos juegan 162
-      partidos cada temporada y cinco equipos de cada liga avanzan a un campeonato de postemporada entre cuatro equipos,
-      el cual culmina con la Serie Mundial, que consiste en una serie de campeonato de siete juegos entre el campeón de
-      cada liga que se efectúan desde 1903. El béisbol es transmitido al aire por radio y por la televisión y
-      recientemente por internet en Norteamérica (Canadá, Estados Unidos y México) y en otros países del mundo. MLB
-      tiene la más alta asistencia de público para una liga deportiva en el mundo con más de 69.6 millones de
-      espectadores en 2018.</p>
-
-  </article> -->
+ 
